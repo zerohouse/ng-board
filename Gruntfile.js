@@ -2,7 +2,7 @@
  * Created by park on 15. 4. 23..
  */
 module.exports = function (grunt) {
-
+    grunt.file.defaultEncoding = "utf8";
     // Project configuration.
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
